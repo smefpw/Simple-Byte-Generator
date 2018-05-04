@@ -23,9 +23,9 @@
 <?php for ($total=0; 100 > $total ; $total++) { 
 
     $a = 1; # Amount of bytes to generate
-    $type = openssl_random_pseudo_bytes; # Type of code
+   # $type = openssl_random_pseudo_bytes; # Type of code
     
-    $junk = $type($a);
+    $junk = openssl_random_pseudo_bytes($a);
     $hex = $junk;
     $byte = bin2hex($hex);
     
