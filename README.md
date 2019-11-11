@@ -1,7 +1,5 @@
-# Simple Byte Generator by smef.cc
+# Random byte generator
 
-The code has been made easier for people to read and edit without possibility of breaking the code itself.
-
-The generates a selected amount of ASM bytes.
-
-https://github.com/smefcc/Simple-Byte-Generator/blob/master/LICENSE -- license
+This PHP script can be used to generate a random amount of bytes.
+This script was widely used for the injector "Rando(m) Injector"
+The script can be modified just to generate bytes without pseudoinstructions
